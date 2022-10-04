@@ -1,0 +1,122 @@
+body {
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color:rgb(229, 200, 182);
+    font-family: BaronSans, Helvetica, Arial;
+}
+
+#logo {
+    background-color: rgb(171, 122, 79);
+    height: 23px;
+    width: 220px;
+    color: rgb(228, 199, 158);
+    font-size: 18px;
+
+    font-weight: lighter;
+    border-radius: 5px;
+    
+    }
+
+.menucontents {
+    list-style-type: none;
+    display: flex;
+    height: 50px;
+    gap: 350px;
+    padding: 15px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.menucontents:hover {
+background-color: white;
+height: 50px;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    background-color:rgb(229, 200, 182);
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    height: 0px;
+    width: 0px;
+
+}
+
+
+button:hover,
+button:focus {
+    background-color: white;
+   text-decoration:underline;
+   text-align: center;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.aboutMe {
+    background-color: rgb(229, 200, 182);
+    padding: 100px;
+    font-weight: 100;
+   font-family:'Source Sans Pro', sans-serif;
+   width: 60%;
+   float: center;
+   text-align: left;
+   padding-left: 400px;
+   font-size: 30px;
+
+
+}
+
+  img {
+    height: 775px;
+    width:2000px;
+    
+  }  
+
+#name{
+    font-family: BaronSans, Helvetica, Arial;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+#quote {
+    font-style: italic;
+}
+
+.projectpics {
+    height: 720px;
+    width: 600px;
+    padding-left: 50px;
+    border-radius: 15px;
+    padding-bottom: 150px;
+    padding-top: 150x;
+}
+
+.projectpics2{
+    height:720px;
+    width: 600px;
+    padding-left:1250px;
+    border-radius: 15px;
+    padding-bottom: 150px;
+    padding-top: 150x;
+}
+
+title {
+    padding: 700px;
+
+   font-family:'Source Sans Pro', sans-serif;
+
+   float: right;
+   text-align: right;
+   padding-left: 400px;
+   font-size: 30px;
+}
