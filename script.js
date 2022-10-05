@@ -2,9 +2,10 @@ let mainEl = document.querySelector("main")
 console.log(mainEl)
 
 
-mainEl.style.backgroundColor = 
+mainEl.style.fontFamily = 'var(.aboutMe)'
 
-mainEl.innerHTML = '<h1>Quote</h1>'
+mainEl.innerHTML = '<h1>Sonam Karia, Frontend Engineer</h1>'
 
-mainEl.classList.add('.menucontents')
+
+
 
