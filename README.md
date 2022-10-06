@@ -3,9 +3,9 @@
 |---|---|---|
 | Day 1  | Project Description  |  Complete |
 | Day 2  | WireFrames/Priority Matrix/Timeline  | Complete  |
-| Day 3  | Core Application Structure(HTML, CSS, Javascript)  | In Progress  |
-| Day 4  | MVP & Fixes  |  Incomplete |
-| Day 5  | Final Touches  | Incomplete  |
+| Day 3  | Core Application Structure(HTML, CSS, Javascript)  | Complete  |
+| Day 4  | MVP & Fixes  |  Complete |
+| Day 5  | Final Touches  | Complete |
 | Day 6  |  Present | Incomplete  |
 
 ### WireFrame
