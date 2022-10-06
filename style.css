@@ -12,7 +12,6 @@ body {
     width: 220px;
     color: rgb(228, 199, 158);
     font-size: 18px;
-
     font-weight: lighter;
     border-radius: 5px;
     
@@ -21,12 +20,10 @@ body {
 .menucontents {
     list-style-type: none;
     display: flex;
-    height: 50px;
     gap: 250px;
     padding: 15px;
-    margin-top: 0px;
     text-transform: uppercase;
-    text-align: justify;
+    align-items: center;
 }
 
 .menucontents:hover {
@@ -217,4 +214,93 @@ title {
     margin-left: 0.5em;
   }
 
+  @media only screen and (max-width: 700px){
+
+
+    #logo {
+        background-color: rgb(171, 122, 79);
+        height: 90px;
+        width: 200px;
+        color: rgb(228, 199, 158);
+        font-size: 15px;
+        font-weight: lighter;
+        border-radius: 5px;
+        padding-left: 10px;
+        
+        }
+    
+    .menucontents {
+        list-style-type: none;
+        display: flex;
+        gap: 125px;
+        padding: 15px;
+        text-transform: uppercase;
+        align-items: center;
+    }
+    
+    .menucontents:hover {
+    background-color: white;
+    height: 100px;
+    width: 1000px;
+    }
+    
+    button {
+        display: inline-block;
+        border: none;
+        margin: 0;
+        text-decoration: none;
+        background-color:rgb(229, 200, 182);
+        color: black;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        text-transform: uppercase;
+        height: 0px;
+        width: 0px;
+    
+    }
+    .hamburger-menu{
+        padding-left: 50px;
+    }
+    img {
+        height: 750px;
+        width:1500px;
+        
+      
+}
+
+    .aboutMe {
+        background-color: rgb(229, 200, 182);
+        padding: 100px;
+        font-weight: 100;
+        font-family:'Source Sans Pro', sans-serif;
+        width: 90%;
+        float: center;
+        text-align: center;
+        padding-left: 200px;
+        font-size: 20px;
+    
+    }
+  
+    .projectpics{
+        height: 350px;
+        width: 350px;
+        padding-left: 50px;
+        border-radius: 15px;
+        padding-bottom: 150px;
+        padding-top: 150x; 
+    }
+
+    .projectpics2{
+        height: 350px;
+        width: 350px;
+        padding-left: 50px;
+        border-radius: 15px;
+        padding-bottom: 150px;
+        padding-top: 150x;
+    }
+    
+    
+    
+    }
   
